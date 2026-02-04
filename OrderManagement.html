@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student 3 - Order Management</title>
+  <link rel="stylesheet" href="student3-style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="student-label">Student 3 – Order Management</div>
+
+    <h2>🛒 Create Order</h2>
+
+    <div class="menu-item">
+      <span>Adobo – ₱120</span>
+      <button onclick="addItem('Adobo', 120)">Add</button>
+    </div>
+
+    <div class="menu-item">
+      <span>Sinigang – ₱150</span>
+      <button onclick="addItem('Sinigang', 150)">Add</button>
+    </div>
+
+    <div class="menu-item">
+      <span>Rice – ₱20</span>
+      <button onclick="addItem('Rice', 20)">Add</button>
+    </div>
+
+    <h3>Selected Items</h3>
+    <ul id="orderItems"></ul>
+
+    <h3>Total: ₱<span id="orderTotal">0</span></h3>
+
+    <button class="main-btn" onclick="saveOrder()">Place Order</button>
+  </div>
+
+  <script src="student3-script.js"></script>
+</body>
+</html>

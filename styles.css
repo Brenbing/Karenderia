@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  
+    /* Food background image */
+    background-image: url("https://www.shutterstock.com/image-photo/taytay-rizal-philippines-november-7-600nw-1554230513.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    /* Dark overlay for readability */
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+  
+    color: #fff;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  section {
+    background: rgba(255, 255, 255, 0.95);
+    color: #000;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button {
+    padding: 10px 25px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e68900;
+  }
+  

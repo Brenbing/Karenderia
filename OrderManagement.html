@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Management</title>
+  <link rel="stylesheet" href="student3-style.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <div class="container" id="create">
+      <div class="student-label">Order Management</div>
+
+      <h2>🛒 Create Order</h2>
+
+      <!-- Adobo -->
+      <div class="menu-item">
+        <img src="https://yummykitchentv.com/wp-content/uploads/2020/10/pork-adobo-with-pineapple-01.jpg" alt="Adobo">
+        <div class="menu-info">
+          <span>Adobo</span>
+          <small>₱220</small>
+        </div>
+        <button onclick="addItem('Adobo', 220)">Add</button>
+      </div>
+
+      <!-- Sinigang -->
+      <div class="menu-item">
+        <img src="https://images.getrecipekit.com/20220427092941-photo.png?aspect_ratio=16:9&quality=90&auto_optimize=medium" alt="Sinigang">
+        <div class="menu-info">
+          <span>Sinigang</span>
+          <small>₱350</small>
+        </div>
+        <button onclick="addItem('Sinigang', 350)">Add</button>
+      </div>
+
+      <!-- Rice -->
+      <div class="menu-item">
+        <img src="https://healthynibblesandbits.com/wp-content/uploads/2018/10/Jasmine-Rice-FF.jpg" alt="Rice">
+        <div class="menu-info">
+          <span>Rice</span>
+          <small>₱200</small>
+        </div>
+        <button onclick="addItem('Rice', 200')">Add</button>
+      </div>
+
+      <h3 id="selected">Selected Items (click to remove)</h3>
+      <ul id="orderItems"></ul>
+
+      <h3>Total: ₱<span id="orderTotal">0</span></h3>
+
+      <button class="main-btn" onclick="saveOrder()">Place Order</button>
+    </div>
+  </div>
+
+  <script src="student3-script.js"></script>
+</body>
+</html>

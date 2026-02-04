@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg")
+      no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Navigation */
+  .nav {
+    background: rgba(44, 62, 80, 0.9);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Center wrapper */
+  .page-wrapper {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Main box */
+  .container {
+    max-width: 520px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Label */
+  .student-label {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  
+  /* Menu items with images */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .menu-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .menu-info {
+    flex-grow: 1;
+  }
+  
+  .menu-info span {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .menu-info small {
+    color: #555;
+  }
+  
+  button {
+    padding: 6px 12px;
+    background: #3498db;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  .main-btn {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  /* Selected items */
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  li:hover {
+    text-decoration: line-through;
+    color: red;
+  }
+  
